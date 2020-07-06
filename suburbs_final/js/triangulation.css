@@ -1,0 +1,88 @@
+
+#row1 {
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-width: 1px;	
+}
+#row2 {
+	background-color: rgb(236, 236, 236);
+	padding: 1px;
+}
+#row3 {
+	background-color: rgb(250,240,240);
+	padding: 1px;
+}
+#row4 {
+	background-color: rgb(250,230,230);
+	padding: 1px;
+}
+#row5 {
+	background-color: rgb(240,240,250);
+	padding: 1px;
+}
+#row6 {
+	background-color: rgb(240,250,240);
+	padding: 1px;
+}
+#row7 {
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-width: 1px;	
+}
+#row8 {
+	background-color: rgb(236, 236, 236);
+	padding: 1px;
+}
+
+input {
+	padding: 0px;
+	margin: 0px;
+}
+button {
+	width: 125px;
+	height: 30px;
+	margin: 3px 3px 0px 0px;
+	font-size: 0.9em;
+	background-color: rgba(255,255,255,0);
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+}
+button.move {
+	background-color: rgba(100,100,100,0.1);
+	width: 100px;
+	height: 20px;
+	border: 0px;
+	padding: 0px;
+    margin: 0px;
+}
+button.delaunay {
+	background-color: rgba(100,100,100,0.1);
+    border-color: rgba(100,100,100,0.1);
+}
+button.voronoi {
+	background-color: rgba(250,0,0,0.1);
+    border-color: rgba(250,0,0,0.1);
+}
+button.circumcircles {
+	background-color: rgba(250,0,0,0.15);
+    border-color: rgba(250,0,0,0.15);
+}
+button.RNG {
+	background-color: rgba(0,0,250,0.1);
+    border-color: rgba(0,0,250,0.1);
+}
+button.EMSP {
+	background-color: rgba(0,250,0,0.1);
+    border-color: rgba(0,250,0,0.1);
+}
+button.Fun1 {
+    border-color: rgb(216, 116, 116);
+    border-style: solid;
+    border-width: 1px;
+}
+button.Fun2 {
+    border-color: rgb(116, 116, 216);
+    border-style: solid;
+    border-width: 1px;
+}

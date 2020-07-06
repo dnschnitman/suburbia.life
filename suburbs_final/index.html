@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://4nomore.net/2018/Triangulation/ -->
+<html lang="en" style="visibility: visible;">
+<!-- Head tag -->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:image"       content="./suburbsOG.jpg" />
+    <meta property="og:title"       content="Suburban Life" />
+
+    <style>
+    #control {
+        width: 900px;
+    }
+
+    #defaultCanvas0{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        z-index: 2;
+    }
+
+    #loadingText{
+
+    }
+
+     #loadingText p{
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        left: 50%;
+        right: 0;
+        margin:auto;
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+     }
+
+    body {
+        background-color: #182B1D;
+    }
+
+</style>
+    <div id="sketch-holder">
+
+    </div>
+    <div id="control">
+    </div>
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/p5.dom.min.js"></script>
+    <script src="./js/addScreenPositionFunction.js"></script>
+    <script src="./js/delaunator.js"></script>
+    <script src="./js/houseobj.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D@0.5/p5.collide2d.min.js"></script>
+
+    <link rel="stylesheet" href="./js/simple-grid.css">
+    <link rel="stylesheet" href="./js/triangulation.css">
+    <script src="./js/triangulation.js"></script>
+    <div id="loadingText"><p>Loading...<p></div>
+
+    <canvas width="900" height="600" style="display: none; width: 900px; height: 600px;"></canvas><canvas width="900" height="600" style="display: none; width: 900px; height: 600px;"></canvas><canvas width="900" height="600" style="display: none; width: 900px; height: 600px;"></canvas><canvas width="900" height="600" style="display: none; width: 900px; height: 600px;"></canvas></body>
+
+</html>
